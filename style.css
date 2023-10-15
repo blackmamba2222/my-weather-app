@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+h1{
+    color: brown;
+    font-weight: bolder;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    
+    background-image: url('images/bg1.jpg');
+    background-size: cover;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.2);
+}
+
+.search-box {
+    margin-top: 20px;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: brown;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.weather {
+    margin-top: 20px;
+}
+
+.location {
+    font-size: 24px;
+}
+
+.temperature {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 18px;
+}
